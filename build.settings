@@ -8,7 +8,10 @@ settings =
 		-- supported = { "landscapeLeft", "landscapeRight", "portrait", "portraitUpsideDown", },
 	},
 	--]]
-
+	android =
+	{
+		useGoogleServicesJson = true,
+	},
 	iphone =
 	{
 		plist =
@@ -44,13 +47,10 @@ settings =
 	}
 	plugins =
 	{
-
- 		
  		["plugin.firebaseInAppMessaging"] =
-        {
-            publisherId = "tech.scotth"
-        },
-	
-
+		{
+		    publisherId = "tech.scotth",
+		    marketplaceId = "insert marketplace id"
+		},
 	},
 }
